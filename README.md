@@ -24,7 +24,12 @@ This project implements a minimal workflow/graph engine using FastAPI.
    python -m venv venv
    source venv/bin/activate        # Windows: .\venv\Scripts\activate
 
-2. Run the main app:
+2. Install dependencies:
+
+   ```bash
+   pip install fastapi uvicorn "pydantic>=2"
+
+3. Run the main app:
 
    ```bash
    uvicorn app.main:app --reload
