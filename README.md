@@ -27,7 +27,7 @@ This project implements a minimal workflow/graph engine using FastAPI.
 2. Install dependencies:
 
    ```bash
-   pip install fastapi uvicorn "pydantic>=2"
+   pip install -r requirements.txt
 
 3. Run the main app:
 
