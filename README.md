@@ -26,5 +26,5 @@ This project implements a minimal workflow/graph engine using FastAPI.
 
 2. Run the main app:
 
-  ```bash
-  uvicorn app.main:app --reload
+   ```bash
+   uvicorn app.main:app --reload
